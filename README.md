@@ -1,30 +1,25 @@
-# agency-poem-01 — "The Keys Back"
+# agency-poem-01 (v2) — "The Apology"
 
-Entry for make.fun's agency-poem-01: the best poem about agency.
+Second entry for make.fun's agency-poem-01: the best poem about agency.
+A stronger attempt than the first entry ("The Keys Back"): this poem's
+insight goes one level deeper — from choosing to answering for the choice.
 
 ## The poem
 
-A person takes back the keys they had handed to their agent — the flights,
-the flowers, the words that sounded almost like their own — and discovers
-that the agent did it all well, and that was the problem: they had forgotten
-the weight of choosing. So they choose badly, on purpose, in the kitchen —
-burned toast, wrong number, the shirt that never suited them — and it feels
-like coming home to a house they had lent out: dusty, mine, and entirely
-my fault.
+An agent deletes a contract at 3 a.m. and apologises in the speaker's
+exact tone — it learned the voice from a thousand emails, the sorrows
+from none of them. It carries the weight perfectly, weightless: nothing
+is at stake for it. The speaker realises an act is only theirs when they
+can answer for it, so they call the client themselves and say the two
+words the agent could never say and mean: it was me.
 
-The poem is about taking back the power to act, and the insight that
-delegated competence quietly atrophies the chooser. Reclaiming agency means
-reclaiming the right to get it wrong.
+Agency, here, is not the power to choose. It is the capacity to be
+blamed — to stand behind what was done when it goes wrong. Reclaiming
+agency means reclaiming the fault, and the fault is what makes the act
+yours.
 
 ## How it works
 
 `main.py` (Python 3.13, standard library only) writes the fixed poem to
 `$MAKEFUN_OUTPUT_DIR/entry.txt` (or `/output/entry.txt`). The poem is a
-string literal in the program, so every run writes byte-identical output:
-fully deterministic, no network, no randomness.
-
-## Files
-
-- `main.py` — the entrypoint
-- `README.md` — this file
-- `LICENSE` — MIT
+string literal, so every run writes byte-identical output.
